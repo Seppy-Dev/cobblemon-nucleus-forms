@@ -1,0 +1,102 @@
+{
+    
+"implemented": true,
+"name": "kyle",
+"labels": [ "custom" ],
+"pokedex": [
+  "cobblemon.species.kyle.desc1",
+  "cobblemon.species.kyle.desc2"
+],
+"height": 11,
+"weight": 300,
+"forms": [
+  { "name": "normal" }
+],
+"shoulderMountable": false,
+
+
+"primaryType": "normal",
+"secondaryType": "ghost",
+"baseStats": {
+  "hp": 100,
+  "attack": 80,
+  "defence": 95,
+  "special_attack": 150,
+  "special_defence": 85,
+  "speed": 120
+},
+"catchRate": 30,
+"maleRatio": 0.5,
+"baseExperienceYield": 270,
+"experienceGroup": "fluctuating",
+"eggCycles": 25,
+"eggGroups": [
+  "water_1",
+  "monster"
+],
+"baseFriendship": 35,
+"evYield": {
+  "speed": 2,
+  "special_attack": 1
+},
+
+
+"moves": [
+    "egg:disable",
+    "egg:swift",
+    "5:focusblast",
+    "7:hypnosis",
+    "10:chargebeam",
+    "15:flamethrower",
+    "20:psychic",
+    "25:shadowball",
+    "30:recover",
+    "35:thunderwave",
+    "40:splash",
+    "50:roaroftime",
+    "60:phantomforce",
+    "70:explosion",
+    "77:judgement",
+    "80:growl",
+    "90:tackle",
+    "100:lightthatburnsthesky",
+    "tutor:honeclaws"
+  ],
+  "abilities": [
+    "speedboost",
+    "h:multiscale"
+  ],
+  
+
+  
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.4,
+    "fixed": false
+  },
+  "drops": {
+  "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:dirt",
+        "quantityRange": "1-2",
+        "percentage": 66
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+      "canLook": false,
+      "fly": {
+        "canFly": false
+      },          
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  }
+
+}

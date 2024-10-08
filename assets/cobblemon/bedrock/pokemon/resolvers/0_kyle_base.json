@@ -1,0 +1,19 @@
+
+{
+    "species": "cobblemon:kyle",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:kyle",
+        "model": "cobblemon:kyle.geo",
+        "texture": "cobblemon:textures/pokemon/kyle/kyle.png",
+        "layers": []
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/kyle/kyle_shiny.png"
+      }
+    ]
+  }
+  

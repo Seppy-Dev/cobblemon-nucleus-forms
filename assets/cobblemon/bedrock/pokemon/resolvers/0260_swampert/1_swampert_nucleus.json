@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:swampert",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [
+        "nucleus"
+      ],
+      "poser": "cobblemon:swampert",
+      "model": "cobblemon:swampert_nucleus.geo",
+      "texture": "cobblemon:textures/pokemon/0260_swampert/swampert_nucleus.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+        "nucleus"
+      ],
+      "texture": "cobblemon:textures/pokemon/0260_swampert/swampert_nucleus_shiny.png"
+    }
+  ]
+}
